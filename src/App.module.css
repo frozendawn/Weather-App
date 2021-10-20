@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.Container {
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 650px;
+  width: 300px;
+  /* background-image: url("./img/clear.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.input-container {
+    /* border: 1px solid purple; */
+    
+    margin: 10px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  
+  /* border: 1px solid red; */
+}
+
